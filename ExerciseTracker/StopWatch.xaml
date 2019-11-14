@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ExerciseTracker.StopWatch">
+     <Page.Resources>
+        <ResourceDictionary>
+            <Style x:Key="HeaderStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#FC3158"/>
+                <Setter Property="Margin" Value="0,20,0,0"/>
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"
+/>            </Style>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <StackLayout Padding="0,40,0,0">
+
+        <StackLayout BackgroundColor="#f2f2f2" Padding="0,0,0,30">
+            <Label Text="Timer" Style="{StaticResource HeaderStyle}"/>
+           </StackLayout>
+
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <Grid HorizontalOptions="Center"
+            VerticalOptions="Center">
+            <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+            <Image 
+                 VerticalOptions="CenterAndExpand"
+                 HorizontalOptions="Center"
+                 Source="StopWatchImage"
+                 Grid.Row="0"
+                 Grid.Column="0"/>
+            <Label x:Name="timerLabel"
+                FontSize="40"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                TextColor="Black"
+                Grid.Row="0"
+                Grid.Column="0"/>
+            </Grid>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Padding="0,10,0,20">
+                <Button x:Name="startButton" Text="Start" FontSize="30"  Clicked="OnStartClicked"/>
+                <Button x:Name="stopButton" Text="Stop" FontSize="30" IsVisible="false" Clicked="OnStopClicked"/>
+            </StackLayout>
+              <Button x:Name="resetButton" Text="Reset" FontSize="30" IsVisible="false" HorizontalOptions="Center" Clicked="OnResetClicked"/>
+        </StackLayout>
+            
+    </StackLayout>
+</ContentPage>

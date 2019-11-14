@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ExerciseTracker.Log">
+      <Page.Resources>
+        <ResourceDictionary>
+            <Style x:Key="HeaderStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#FC3158"/>
+                <Setter Property="Margin" Value="0,20,0,0"/>
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"
+/>            </Style>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <StackLayout Padding="0,40,0,0">
+         <StackLayout BackgroundColor="#f2f2f2" Padding="0,0,0,30">
+            <Label Text="Log" Style="{StaticResource HeaderStyle}"/>
+         </StackLayout>
+
+        <Label Text="Distance" TextColor="#FC3158" FontSize="20" Margin="0,20,0,0"/>
+        <Entry x:Name="distanceEntry" Text="" HorizontalOptions="FillAndExpand"/>
+        <Button x:Name="logButton" Text="Add" FontSize="20" HorizontalOptions="Center" Clicked="AddRunClicked"/>
+        <StackLayout Orientation="Horizontal">
+            <Label x:Name="totalMiles" FontSize="20" Text="0"/>
+            <Label Text="Total Miles" FontSize="20"/>
+        </StackLayout>
+        
+        <ListView x:Name="logList" HeightRequest="200">
+        
+        </ListView>
+    </StackLayout>
+</ContentPage>

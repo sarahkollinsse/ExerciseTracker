@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{E6B26791-C85F-406A-ADCD-716EB2607198}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ExerciseTracker/MainPage.xaml.cs">
+    <Files>
+      <File FileName="ExerciseTracker/MainPage.xaml.cs" Line="138" Column="58" />
+      <File FileName="ExerciseTracker/Settings.xaml.cs" Line="46" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ExerciseTracker" expanded="True">
+            <Node name="ExerciseTracker" expanded="True">
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+              <Node name="Settings.xaml" expanded="True" />
+            </Node>
+            <Node name="ExerciseTracker.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ExerciseTracker.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.027C6B89-F50D-4165-AEAC-0CFB9CE4CF40" />
+  <MonoDevelop.Ide.ItemProperties.ExerciseTracker.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

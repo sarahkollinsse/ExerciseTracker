@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ExerciseTracker.Settings">
+      <Page.Resources>
+        <ResourceDictionary>
+            <Style x:Key="HeaderStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#FC3158"/>
+                <Setter Property="Margin" Value="0,20,0,0"/>
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"
+/>            </Style>
+        </ResourceDictionary>
+    </Page.Resources>
+    <StackLayout Padding="0,40,0,0">
+       <StackLayout BackgroundColor="#f2f2f2" Padding="0,0,0,30">
+         <Label Text="Settings" Style="{StaticResource HeaderStyle}"/>
+       </StackLayout>
+      
+       <Label Text="Gender" TextColor="#FC3158"/>
+       <Picker x:Name="genderPicker" PropertyChanged="GenderPickerChanged">
+           <Picker.Items>
+               <x:String>Female</x:String>
+               <x:String>Male</x:String>
+               <x:String></x:String>
+           </Picker.Items>
+       </Picker>
+
+       <Label Text="DOB" TextColor="#FC3158" Margin="0,20,0,0"/>
+       <DatePicker x:Name="dobPicker"
+                  DateSelected="DOBPickerChanged">
+
+       </DatePicker>
+       <Button Text="Credits" HorizontalOptions="Center" Clicked="OnCreditClicked"/>
+   </StackLayout>
+</ContentPage>

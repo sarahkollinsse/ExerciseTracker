@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:ExerciseTracker;assembly=ExerciseTracker" mc:Ignorable="d" x:Class="ExerciseTracker.MainPage">
+    <Page.Resources>
+        <ResourceDictionary>
+            <Style x:Key="HeaderStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#FC3158"/>
+                <Setter Property="Margin" Value="0,20,0,0"/>
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"
+/>            </Style>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <ContentPage Title = "Grade" IconImageSource="GradeImage">
+      <StackLayout Padding="0,40,0,0">
+          <StackLayout BackgroundColor="#f2f2f2" Padding="0,0,0,30">
+         <Label Text="Grade" Style="{StaticResource HeaderStyle}"/>
+       </StackLayout>
+           <Label Text="Run Type" FontSize="20" TextColor="#FC3158"/>
+       <Picker x:Name="runPicker" PropertyChanged="RunPickerChanged">
+           <Picker.Items>
+               <x:String>1m</x:String>
+               <x:String>5k</x:String>
+               <x:String>10k</x:String>
+                <x:String>half marathon</x:String>
+                <x:String>marathon</x:String>
+           </Picker.Items>
+       </Picker>
+          
+        <StackLayout Orientation="Horizontal" Padding="0,0,0,30">
+            <Label Text="Hours:"/>
+            <Entry x:Name="hours" Text="" TextChanged="OnTimeChanged" HorizontalOptions="FillAndExpand"/>
+             <Label Text="Minutes:"/>
+            <Entry x:Name="mins" Text="" TextChanged="OnTimeChanged"  HorizontalOptions="FillAndExpand"/>
+             <Label Text="Seconds:"/>
+            <Entry x:Name="seconds" Text="" TextChanged="OnTimeChanged"  HorizontalOptions="FillAndExpand"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Age Group: "/>
+             <Label x:Name="ageGroup"/>
+        </StackLayout>
+         <StackLayout Orientation="Horizontal">
+            <Label Text="Age Grade: "/>
+            <Label x:Name="ageGrade"/>
+        </StackLayout>
+        
+         <Label x:Name="warning" Text="" FontSize="25" HorizontalOptions="Center"/>
+    </StackLayout>
+   </ContentPage>
+    
+   <local:Log Title="Log" IconImageSource="LogImage"/>
+   <local:StopWatch Title="Timer" IconImageSource="TimerImage"/>
+   <local:Settings Title="Settings" IconImageSource="SettingsImage"/>
+</TabbedPage>

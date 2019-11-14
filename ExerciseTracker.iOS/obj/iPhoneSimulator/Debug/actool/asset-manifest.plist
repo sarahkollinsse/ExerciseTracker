@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.actool.compilation-results</key>
+	<dict>
+		<key>output-files</key>
+		<array>
+			<string>/Users/sarahleecheescake/Projects/ExerciseTracker/ExerciseTracker.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon20x20@2x.png</string>
+			<string>/Users/sarahleecheescake/Projects/ExerciseTracker/ExerciseTracker.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon20x20@3x.png</string>
+			<string>/Users/sarahleecheescake/Projects/ExerciseTracker/ExerciseTracker.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon29x29@2x.png</string>
+			<string>/Users/sarahleecheescake/Projects/ExerciseTracker/ExerciseTracker.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon29x29@3x.png</string>
+			<string>/Users/sarahleecheescake/Projects/ExerciseTracker/ExerciseTracker.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon40x40@2x.png</string>
+			<string>/Users/sarahleecheescake/Projects/ExerciseTracker/ExerciseTracker.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon40x40@3x.png</string>
+			<string>/Users/sarahleecheescake/Projects/ExerciseTracker/ExerciseTracker.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon60x60@2x.png</string>
+			<string>/Users/sarahleecheescake/Projects/ExerciseTracker/ExerciseTracker.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon60x60@3x.png</string>
+			<string>/Users/sarahleecheescake/Projects/ExerciseTracker/ExerciseTracker.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon20x20~ipad.png</string>
+			<string>/Users/sarahleecheescake/Projects/ExerciseTracker/ExerciseTracker.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon20x20@2x~ipad.png</string>
+			<string>/Users/sarahleecheescake/Projects/ExerciseTracker/ExerciseTracker.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon29x29~ipad.png</string>
+			<string>/Users/sarahleecheescake/Projects/ExerciseTracker/ExerciseTracker.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon29x29@2x~ipad.png</string>
+			<string>/Users/sarahleecheescake/Projects/ExerciseTracker/ExerciseTracker.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon40x40~ipad.png</string>
+			<string>/Users/sarahleecheescake/Projects/ExerciseTracker/ExerciseTracker.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon40x40@2x~ipad.png</string>
+			<string>/Users/sarahleecheescake/Projects/ExerciseTracker/ExerciseTracker.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon76x76~ipad.png</string>
+			<string>/Users/sarahleecheescake/Projects/ExerciseTracker/ExerciseTracker.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon76x76@2x~ipad.png</string>
+			<string>/Users/sarahleecheescake/Projects/ExerciseTracker/ExerciseTracker.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon83.5x83.5@2x~ipad.png</string>
+			<string>/Users/sarahleecheescake/Projects/ExerciseTracker/ExerciseTracker.iOS/obj/iPhoneSimulator/Debug/actool/bundle/Assets.car</string>
+			<string>/Users/sarahleecheescake/Projects/ExerciseTracker/ExerciseTracker.iOS/obj/iPhoneSimulator/Debug/actool/partial-info.plist</string>
+		</array>
+	</dict>
+	<key>com.apple.actool.document.warnings</key>
+	<array>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./TimerImage.imageset/(null)[2d][timerIcon.png]</string>
+				<string>./TimerImage.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./TimerImage.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./TimerImage.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./TimerImage.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./TimerImage.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./TimerImage.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./TimerImage.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./TimerImage.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/sarahleecheescake/Projects/ExerciseTracker/ExerciseTracker.iOS/obj/iPhoneSimulator/Debug/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "TimerImage" has 9 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./StopWatchImage.imageset/(null)[2d][stopwatch.png]</string>
+				<string>./StopWatchImage.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./StopWatchImage.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./StopWatchImage.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./StopWatchImage.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./StopWatchImage.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./StopWatchImage.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./StopWatchImage.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./StopWatchImage.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/sarahleecheescake/Projects/ExerciseTracker/ExerciseTracker.iOS/obj/iPhoneSimulator/Debug/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "StopWatchImage" has 9 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./LogImage.imageset/(null)[2d][logIcon.png]</string>
+				<string>./LogImage.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./LogImage.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./LogImage.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./LogImage.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./LogImage.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./LogImage.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./LogImage.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./LogImage.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/sarahleecheescake/Projects/ExerciseTracker/ExerciseTracker.iOS/obj/iPhoneSimulator/Debug/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "LogImage" has 9 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./GradeImage.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./GradeImage.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./GradeImage.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./GradeImage.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./GradeImage.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./GradeImage.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./GradeImage.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./GradeImage.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/sarahleecheescake/Projects/ExerciseTracker/ExerciseTracker.iOS/obj/iPhoneSimulator/Debug/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "GradeImage" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./SettingsImage.imageset/(null)[2d][settingIcon.png]</string>
+				<string>./SettingsImage.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./SettingsImage.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./SettingsImage.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./SettingsImage.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./SettingsImage.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./SettingsImage.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./SettingsImage.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./SettingsImage.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/sarahleecheescake/Projects/ExerciseTracker/ExerciseTracker.iOS/obj/iPhoneSimulator/Debug/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "SettingsImage" has 9 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./SettingsImage.imageset/(null)[2d][settingIcon.png]</string>
+				<string>./SettingsImage.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./SettingsImage.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./SettingsImage.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./SettingsImage.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./SettingsImage.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./SettingsImage.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./SettingsImage.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./SettingsImage.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/sarahleecheescake/Projects/ExerciseTracker/ExerciseTracker.iOS/obj/iPhoneSimulator/Debug/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "SettingsImage" has 9 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./LogImage.imageset/(null)[2d][logIcon.png]</string>
+				<string>./LogImage.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./LogImage.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./LogImage.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./LogImage.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./LogImage.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./LogImage.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./LogImage.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./LogImage.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/sarahleecheescake/Projects/ExerciseTracker/ExerciseTracker.iOS/obj/iPhoneSimulator/Debug/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "LogImage" has 9 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./TimerImage.imageset/(null)[2d][timerIcon.png]</string>
+				<string>./TimerImage.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./TimerImage.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./TimerImage.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./TimerImage.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./TimerImage.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./TimerImage.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./TimerImage.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./TimerImage.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/sarahleecheescake/Projects/ExerciseTracker/ExerciseTracker.iOS/obj/iPhoneSimulator/Debug/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "TimerImage" has 9 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./StopWatchImage.imageset/(null)[2d][stopwatch.png]</string>
+				<string>./StopWatchImage.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./StopWatchImage.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./StopWatchImage.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./StopWatchImage.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./StopWatchImage.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./StopWatchImage.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./StopWatchImage.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./StopWatchImage.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/sarahleecheescake/Projects/ExerciseTracker/ExerciseTracker.iOS/obj/iPhoneSimulator/Debug/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "StopWatchImage" has 9 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./GradeImage.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./GradeImage.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./GradeImage.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./GradeImage.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./GradeImage.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./GradeImage.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./GradeImage.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./GradeImage.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/sarahleecheescake/Projects/ExerciseTracker/ExerciseTracker.iOS/obj/iPhoneSimulator/Debug/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "GradeImage" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+	</array>
+</dict>
+</plist>
